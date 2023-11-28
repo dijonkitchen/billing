@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "billing"
+version = "0.1.0"
+description = ""
+authors = ["JC (Jonathan Chen) <11434205+dijonkitchen@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = {extras = ["all"], version = "^0.98.0"}
+alembic = "^1.11.1"
+psycopg2-binary = "^2.9.6"
+sqlmodel = "^0.0.8"
+httpx = "^0.24.1"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.4.1"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
