@@ -19,7 +19,7 @@ mypy = "^1.4.1"
 
 
 [tool.poetry.group.test.dependencies]
-pytest = "^7.4.0"
+pytest = "^8.0.0"
 
 [build-system]
 requires = ["poetry-core"]
