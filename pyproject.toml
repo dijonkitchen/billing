@@ -10,7 +10,7 @@ python = "^3.11"
 fastapi = {extras = ["all"], version = "^0.98.0"}
 alembic = "^1.11.1"
 psycopg2-binary = "^2.9.6"
-sqlmodel = "^0.0.8"
+sqlmodel = "^0.0.24"
 httpx = "^0.24.1"
 
 
